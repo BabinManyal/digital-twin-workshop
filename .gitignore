@@ -10,7 +10,6 @@ dist/
 downloads/
 eggs/
 .eggs/
-lib/
 lib64/
 parts/
 sdist/
@@ -25,10 +24,17 @@ venv/
 ENV/
 env/
 
+# Python lib directory (but not Next.js lib/)
+/lib/
+
 # Environment variables
 .env
 .env.local
 .env.*.local
+# But allow example files
+!.env.example
+!.env.local.example
+!**/.env.local.example
 
 # IDEs
 .vscode/
