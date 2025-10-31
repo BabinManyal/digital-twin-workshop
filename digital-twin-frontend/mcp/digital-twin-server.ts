@@ -112,7 +112,7 @@ async function performRAGQuery(question: string, topK: number = 3): Promise<stri
 
     // Step 2: Extract relevant content
     const topDocs = results
-      .map((result: any) => {
+      .map((result: { metadata?: { title?: string; content?: string } }) => {
         const metadata = result.metadata || {};
         const title = metadata.title || 'Information';
         const content = metadata.content || '';

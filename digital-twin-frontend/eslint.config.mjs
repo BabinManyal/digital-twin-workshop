@@ -12,6 +12,10 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Ignore compiled MCP server output
+    "mcp/dist/**",
+    "*.js.map",
+    "*.d.ts",
   ]),
 ]);
 
