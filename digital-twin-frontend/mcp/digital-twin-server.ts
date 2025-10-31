@@ -37,7 +37,7 @@ async function queryVectorDatabase(question: string, topK: number = 3) {
 
   try {
     const response = await axios.post(
-      `${UPSTASH_VECTOR_REST_URL}/query`,
+      `${UPSTASH_VECTOR_REST_URL}/query-data`,
       {
         data: question,
         topK,

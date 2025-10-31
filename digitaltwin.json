@@ -113,5 +113,157 @@
     "conferences_attended": ["PyCon Australia 2024", "AWS re:Invent 2023"],
     "publications": ["Blog post: Building Production RAG Systems with Upstash Vector"],
     "open_source": ["Contributor to FastAPI documentation", "Maintainer of internal Python utilities library"]
-  }
+  },
+  "content_chunks": [
+    {
+      "id": "chunk_001",
+      "title": "Professional Summary",
+      "type": "personal",
+      "content": "I am a Senior Software Engineer with 5+ years of experience building scalable applications. I'm passionate about software engineering and currently work at TechCorp Australia, a 200+ employee fintech startup with Series B funding. I have strong technical leadership skills and mentor junior developers while managing a $300K annual infrastructure budget.",
+      "metadata": {
+        "category": "personal",
+        "tags": ["summary", "experience", "leadership"]
+      }
+    },
+    {
+      "id": "chunk_002",
+      "title": "Python Expertise",
+      "type": "skill",
+      "content": "I have 5 years of expert-level Python experience, specializing in Django, FastAPI, and Flask frameworks. I've built production systems at TechCorp Australia using Python for microservices architecture, API development, and backend systems. I'm proficient in writing clean, maintainable code and following Python best practices.",
+      "metadata": {
+        "category": "technical",
+        "tags": ["python", "backend", "django", "fastapi", "flask"]
+      }
+    },
+    {
+      "id": "chunk_003",
+      "title": "JavaScript and TypeScript Skills",
+      "type": "skill",
+      "content": "I have 4 years of advanced JavaScript and TypeScript experience, working primarily with React, Node.js, and modern frontend frameworks. I build responsive user interfaces and full-stack applications, with a focus on type safety and maintainable code.",
+      "metadata": {
+        "category": "technical",
+        "tags": ["javascript", "typescript", "react", "nodejs"]
+      }
+    },
+    {
+      "id": "chunk_004",
+      "title": "Cloud and DevOps Experience",
+      "type": "skill",
+      "content": "I have 4 years of AWS experience including EC2, RDS, and S3. I'm proficient with Docker (3 years) and Kubernetes (2 years) for container orchestration. I've implemented microservices architecture using these technologies and reduced infrastructure costs by $50K annually through optimization. I hold an AWS Solutions Architect certification expiring in 2025.",
+      "metadata": {
+        "category": "technical",
+        "tags": ["aws", "docker", "kubernetes", "devops", "cloud"]
+      }
+    },
+    {
+      "id": "chunk_005",
+      "title": "Database Skills",
+      "type": "skill",
+      "content": "I have extensive database experience: PostgreSQL (5 years), MongoDB (3 years), and Redis (2 years). I design database schemas, optimize queries, and implement caching strategies. At TechCorp, I worked with RDS and implemented Redis caching that helped reduce page load times by 40%.",
+      "metadata": {
+        "category": "technical",
+        "tags": ["postgresql", "mongodb", "redis", "database"]
+      }
+    },
+    {
+      "id": "chunk_006",
+      "title": "AI/ML Experience",
+      "type": "skill",
+      "content": "I have hands-on experience with RAG systems, vector databases, LLM integration, and OpenAI API. I've built production RAG systems using Upstash Vector and Groq API, implementing semantic search and context-aware AI responses. I'm actively learning advanced AI/ML systems and have published blog posts on building production RAG systems.",
+      "metadata": {
+        "category": "technical",
+        "tags": ["ai", "ml", "rag", "llm", "vector-database"]
+      }
+    },
+    {
+      "id": "chunk_007",
+      "title": "TechCorp Australia Experience",
+      "type": "experience",
+      "content": "I work as a Senior Software Engineer at TechCorp Australia (Jan 2021 - Present, 3.5 years). TechCorp is a 200+ employee fintech startup with Series B funding. I'm part of an engineering team of 25 and directly mentor 3 junior developers. I manage a $300K annual infrastructure budget and lead technical decisions for the team.",
+      "metadata": {
+        "category": "professional",
+        "tags": ["experience", "fintech", "leadership"]
+      }
+    },
+    {
+      "id": "chunk_008",
+      "title": "Performance Optimization Achievement",
+      "type": "achievement",
+      "content": "I led an architectural redesign at TechCorp to address a legacy monolith causing 3-second page load times that affected user retention. I implemented a microservices architecture using Docker, Kubernetes, and Redis caching. The result: reduced load times by 40% to 1.8 seconds, increased user retention by 15%, and saved $50K annually in server costs. This demonstrates my ability to solve complex performance problems and deliver measurable business impact.",
+      "metadata": {
+        "category": "achievement",
+        "tags": ["star-method", "performance", "microservices", "leadership"]
+      }
+    },
+    {
+      "id": "chunk_009",
+      "title": "Leadership and Mentoring",
+      "type": "skill",
+      "content": "I have strong technical leadership skills with experience mentoring 3 junior developers, leading code review processes, and coordinating with product and design teams. I manage a team of 5 and handle a $300K annual infrastructure budget. I'm skilled in cross-functional collaboration, problem-solving, and Agile/Scrum methodologies. I'm a Certified Scrum Master (2023).",
+      "metadata": {
+        "category": "soft-skills",
+        "tags": ["leadership", "mentoring", "agile", "collaboration"]
+      }
+    },
+    {
+      "id": "chunk_010",
+      "title": "Education Background",
+      "type": "education",
+      "content": "I hold a Bachelor of Computer Science from the University of Melbourne (graduated 2019) with a 3.7/4.0 GPA (High Distinction). My relevant coursework included Data Structures, Algorithms, Database Systems, and Machine Learning. My thesis project was on Predictive Analytics for E-commerce Recommendations, which sparked my interest in AI/ML systems.",
+      "metadata": {
+        "category": "education",
+        "tags": ["degree", "university", "melbourne"]
+      }
+    },
+    {
+      "id": "chunk_011",
+      "title": "Digital Twin Workshop Project",
+      "type": "project",
+      "content": "I built an AI-Powered Digital Twin Workshop Platform - an end-to-end RAG system for interview preparation. The project uses Python, Upstash Vector, Groq API, and Next.js. It has helped 100+ professionals improve their interview performance. This project demonstrates my ability to build production AI systems from scratch and create practical applications that deliver real value.",
+      "metadata": {
+        "category": "project",
+        "tags": ["ai", "rag", "fullstack", "nextjs", "python"]
+      }
+    },
+    {
+      "id": "chunk_012",
+      "title": "Career Goals",
+      "type": "goals",
+      "content": "My short-term goal is to transition into a Lead Technical Architect role with AI/ML focus. Long-term, I aspire to become Head of Engineering at an AI-first company. I'm currently focused on learning advanced AI/ML systems, large-scale system architecture, and enhancing my team leadership skills. I'm particularly interested in opportunities in Fintech, AI/ML, and Enterprise SaaS industries.",
+      "metadata": {
+        "category": "career",
+        "tags": ["goals", "career", "ai", "leadership"]
+      }
+    },
+    {
+      "id": "chunk_013",
+      "title": "Salary and Location Preferences",
+      "type": "compensation",
+      "content": "My current salary range is $85,000 - $95,000 AUD. I'm seeking $95,000 - $110,000 AUD based on role complexity and responsibilities. I'm open to Melbourne CBD, Remote, or Hybrid work arrangements. I have 3+ years of remote collaboration experience and am willing to relocate if needed. I'm available for interstate travel up to 25% and hold Australian Citizen/Permanent Resident work authorization.",
+      "metadata": {
+        "category": "compensation",
+        "tags": ["salary", "location", "remote", "melbourne"]
+      }
+    },
+    {
+      "id": "chunk_014",
+      "title": "Recent Learning and Development",
+      "type": "development",
+      "content": "I'm actively learning about RAG systems implementation, vector databases, and MCP protocol development. I attended PyCon Australia 2024 and AWS re:Invent 2023. I've published a blog post on Building Production RAG Systems with Upstash Vector. I contribute to open source, including FastAPI documentation and maintain an internal Python utilities library. This shows my commitment to continuous learning and community contribution.",
+      "metadata": {
+        "category": "professional-development",
+        "tags": ["learning", "conferences", "open-source", "blogging"]
+      }
+    },
+    {
+      "id": "chunk_015",
+      "title": "Problem-Solving Approach",
+      "type": "behavioral",
+      "content": "When facing difficult technical decisions, I follow a structured approach: First, I analyze the problem and gather requirements from stakeholders. Then, I research solutions and evaluate trade-offs. I create proof-of-concepts for validation before making recommendations. I document my decisions and communicate clearly with the team. The microservices migration at TechCorp is a good example where this approach led to a 40% performance improvement and $50K in cost savings.",
+      "metadata": {
+        "category": "behavioral",
+        "tags": ["problem-solving", "decision-making", "leadership"]
+      }
+    }
+  ]
 }

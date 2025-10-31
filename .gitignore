@@ -76,3 +76,4 @@ Thumbs.db
 
 # MCP build output
 digital-twin-frontend/mcp/dist/
+nohup.out

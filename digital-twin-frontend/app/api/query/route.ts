@@ -10,21 +10,26 @@ async function queryVectorDatabase(question: string, topK: number = 3) {
     throw new Error('Upstash Vector credentials not configured');
   }
 
-  const response = await axios.post(
-    `${UPSTASH_VECTOR_REST_URL}/query`,
-    {
-      data: question,
-      topK,
-      includeMetadata: true,
-    },
-    {
-      headers: {
-        Authorization: `Bearer ${UPSTASH_VECTOR_REST_TOKEN}`,
+  try {
+    const response = await axios.post(
+      `${UPSTASH_VECTOR_REST_URL}/query-data`,
+      {
+        data: question,
+        topK,
+        includeMetadata: true,
       },
-    }
-  );
+      {
+        headers: {
+          Authorization: `Bearer ${UPSTASH_VECTOR_REST_TOKEN}`,
+        },
+      }
+    );
 
-  return response.data.result || [];
+    return response.data.result || [];
+  } catch (error: any) {
+    console.error('Upstash query error:', error.response?.data || error.message);
+    throw error;
+  }
 }
 
 async function generateResponseWithGroq(prompt: string) {
