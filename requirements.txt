@@ -1,0 +1,23 @@
+# Digital Twin Workshop - Python Dependencies
+# Generated: November 5, 2025
+
+# LLM Provider - Groq Cloud API
+groq==0.33.0
+
+# Vector Database - Upstash Vector
+upstash-vector==0.8.0
+
+# Environment Management
+python-dotenv==1.0.0
+
+# HTTP Requests (if needed for utilities)
+requests==2.31.0
+
+# Installation:
+# pip install -r requirements.txt
+
+# Virtual Environment Setup:
+# python -m venv .venv
+# source .venv/bin/activate  # On macOS/Linux
+# .venv\Scripts\activate     # On Windows
+# pip install -r requirements.txt
