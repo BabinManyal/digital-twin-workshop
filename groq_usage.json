@@ -1,9 +1,9 @@
 {
-  "total_requests": 1,
-  "total_tokens": 600,
-  "total_prompt_tokens": 342,
-  "total_completion_tokens": 258,
-  "total_latency_ms": 1459.3260288238525,
+  "total_requests": 2,
+  "total_tokens": 1248,
+  "total_prompt_tokens": 651,
+  "total_completion_tokens": 597,
+  "total_latency_ms": 2333.0440521240234,
   "requests": [
     {
       "timestamp": "2025-11-05T12:54:43.660501",
@@ -14,6 +14,17 @@
       "latency_ms": 1459.33,
       "success": true,
       "question_preview": "What are your AI/ML skills?",
+      "error": null
+    },
+    {
+      "timestamp": "2025-11-06T13:46:14.019983",
+      "model": "llama-3.1-8b-instant",
+      "prompt_tokens": 309,
+      "completion_tokens": 339,
+      "total_tokens": 648,
+      "latency_ms": 873.72,
+      "success": true,
+      "question_preview": "Tell me about your work experience",
       "error": null
     }
   ]
